@@ -372,7 +372,7 @@ select.error, textarea.error, input.error {
     background: -webkit-linear-gradient(#002F5D, #002F5D 60%, #021624);
     background: -moz-linear-gradient(#002F5D, #002F5D 60%, #021624);
     background: -ms-linear-gradient(#002F5D, #002F5D 60%, #021624);
-    background: linear-gradient(#002F5D, #002F5D 60%, #021624);
+    background: linear-gradient(#116462, #43aaa7d6 60%, #116462);
     display: flex;
     box-shadow: -6px 0px 8px #999999;
     z-index: 99999;
