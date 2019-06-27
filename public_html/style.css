@@ -204,7 +204,7 @@ div#loader { z-index: 99; position: absolute; left: 0; top: 0; bottom: 0; right:
 }
 
 .aircraft_table_header { 
-    background-color: #002F5D;
+    background-color: #000000;
     color: #FFFFFF;
     cursor: pointer;
 }
@@ -372,7 +372,7 @@ select.error, textarea.error, input.error {
     background: -webkit-linear-gradient(#002F5D, #002F5D 60%, #021624);
     background: -moz-linear-gradient(#002F5D, #002F5D 60%, #021624);
     background: -ms-linear-gradient(#002F5D, #002F5D 60%, #021624);
-    background: linear-gradient(#116462, #43aaa7d6 60%, #116462);
+    background: linear-gradient(#000000, #000000 60%, #000000);
     display: flex;
     box-shadow: -6px 0px 8px #999999;
     z-index: 99999;
@@ -426,7 +426,7 @@ select.error, textarea.error, input.error {
 
 .button {
     background: #00A0E2;
-    background: rgba(0, 160, 226, 1);
+    background: rgba(36, 168, 104);
     min-width: 80px;
     height: 28px;
     border-radius: 4px;
