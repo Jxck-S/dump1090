@@ -1,6 +1,6 @@
 html, body {
 	-ms-overflow-style: -ms-autohiding-scrollbar;
-    margin: 0; padding: 0; background-color: #ffffff; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0; padding: 0; background-color: #000000; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 10pt; overflow: hidden; height: 100%;
 }
 
@@ -204,7 +204,7 @@ div#loader { z-index: 99; position: absolute; left: 0; top: 0; bottom: 0; right:
 }
 
 .aircraft_table_header { 
-    background-color: #000000;
+    background-color: #095832;
     color: #FFFFFF;
     cursor: pointer;
 }
@@ -223,10 +223,10 @@ div#loader { z-index: 99; position: absolute; left: 0; top: 0; bottom: 0; right:
     text-transform: uppercase;
 }
 
-.vPosition  { background-color: #E5F6FC; }
-.mlat       { background-color: #FDF2E5; }
-.other      { background-color: #CCD5F8; }
-.tisb       { background-color: #FFF3B8; }
+.vPosition  { background-color: #a9ffd0; }
+.mlat       { background-color: #fffdc0; }
+.other      { background-color: #d8d4ef; }
+.tisb       { background-color: #f5ad92; }
 .squawk7500 { font-weight: bold; background-color: #ff5555; }
 .squawk7600 { font-weight: bold; background-color: #00ffff; }
 .squawk7700 { font-weight: bold; background-color: #ffff00; }
@@ -238,7 +238,7 @@ div#loader { z-index: 99; position: absolute; left: 0; top: 0; bottom: 0; right:
 .hidden { display: none; }
 
 .infoblock_heading    { font-size: larger; }
-.infoblock_heading a  { text-decoration: none; color: blue; font-size: x-small;}
+.infoblock_heading a  { text-decoration: none; color: white; font-size: x-small;}
 
 .dim    { opacity: 0.3; filter:alpha(opacity=30); /* For IE8 and earlier */ }
 
@@ -331,7 +331,7 @@ select.error, textarea.error, input.error {
     width: 100%;
     font-size: 12px;
     color: #000000;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     display: inline-flex;
     justify-content: flex-end;
     padding-top: 10px;
@@ -374,7 +374,7 @@ select.error, textarea.error, input.error {
     background: -ms-linear-gradient(#002F5D, #002F5D 60%, #021624);
     background: linear-gradient(#000000, #000000 60%, #000000);
     display: flex;
-    box-shadow: -6px 0px 8px #999999;
+    box-shadow: 6px 4px 1px #24a868;
     z-index: 99999;
 }
 
@@ -564,7 +564,7 @@ select.error, textarea.error, input.error {
 
 .infoBlockTitleText {
     font-weight: bold;
-    color: #002F5D;
+    color: #24a868;
 }
 
 .legendBox {
