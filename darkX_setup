@@ -1,6 +1,9 @@
 #!/bin/bash
 cd /usr/share/dump1090-fa
 rm -r html
-git clone://github.com/Jxck-S/dump1090-darkX
-mv -r dump1090-darkX/public_html /usr/share/dump1090-fa/html 
+git clone  https://github.com/Jxck-S/dump1090-darkX
+mv  dump1090-darkX/public_html /usr/share/dump1090-fa/html
 rm -r dump1090-darkX
+systemctl restart lighttpd 
+
+echo Done! Thanks for checking out dump1090-darkX
