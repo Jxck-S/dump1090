@@ -1,0 +1,6 @@
+#!/bin/bash
+cd /usr/share/dump1090-fa
+rm -r html
+git clone://github.com/Jxck-S/dump1090-darkX
+mv -r dump1090-darkX/public_html /usr/share/dump1090-fa/html 
+rm -r dump1090-darkX
