@@ -20,6 +20,7 @@ html, body {
 .infoblock-container {
 	overflow: scroll;
 	height: 100%;
+	background-color: #000000;
 }
 #sidebar_canvas { 
     padding: 10px;
@@ -131,8 +132,8 @@ html, body {
 	background-position: 0px;
 	border: none;
 	width: 100%;
-	border-bottom: #234c75;
-	background-color: #65819e;
+	border-bottom: #095832;
+	background-color: #24a868;
 	border-bottom-width: 1px;
 	border-bottom-style: solid;
 }
@@ -140,7 +141,7 @@ html, body {
 	display: inline-block;
 	position: absolute;
 	top: 18px;
-	color: #00A0E2;
+	color: #000000;
 	right: 30px;
 	margin-left: auto;
 	font-size: 75%;
@@ -299,7 +300,7 @@ select.error, textarea.error, input.error {
 	font-size: 12px;
 	font-weight: bold;
     line-height: 16px;
-    color: #002F5D;
+    color: #24a868;
 }
 
 .infoHeading sub {
@@ -310,14 +311,14 @@ select.error, textarea.error, input.error {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 12px;
     line-height: 16px;
-    color: #000000;
+    color: #ffffff;
 }
 
 .sectionTitle {
 	width: 100%;
 	text-transform: uppercase;
 	color: #fff;
-	background: #002F5D;
+	background: #095832;
 	font-size: 14px;
 }
 
@@ -439,7 +440,7 @@ select.error, textarea.error, input.error {
 }
 
 .lightblue-link, .lightblue-link a {
-	color: #00A0E2;
+	color: #05bd64;
 }
 
 .buttonHeader {
@@ -464,8 +465,8 @@ select.error, textarea.error, input.error {
     top: 60px;
     min-width: 168px;
     padding-right: 5px;
-    background: #ffffff;
-    box-shadow: 4px 4px 10px #444444;
+    background: #000000;
+    box-shadow: 4px 4px 10px #095832;
     cursor: pointer;
     z-index: 9999;
     display: none;
@@ -473,7 +474,7 @@ select.error, textarea.error, input.error {
 
 .highlightedTitle {
     height: 36px;
-    border-bottom: 1px solid #00A0E2;
+    border-bottom: 1px solid #095832;
     padding-left: 18px;
 	padding-top: 18px;
 }
@@ -486,8 +487,8 @@ select.error, textarea.error, input.error {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 24px;
     line-height: 20px;
-    color: #002F5D;
-    color: rgb(0, 47, 93);
+    color: #ffffff;
+    color: rgb(255, 255, 255);
     font-weight: lighter;
 }
 
@@ -496,8 +497,8 @@ select.error, textarea.error, input.error {
     font-size: 12px;
     font-weight: bold;
     line-height: 20px;
-    color: #00A0E2;
-    color: rgb(0, 160, 226);
+    color: #24a868;
+    color: rgb(36, 168, 104));
 }
 
 .highlightedInfo {
@@ -683,10 +684,10 @@ select.error, textarea.error, input.error {
 	margin-top: 8px;
 	padding: 40px 0px;
 	text-align: center;
-	background-color: #eee;
+	background-color: #000;
 }
 #selected_flightaware_link a {
-	background-color: #00a0e2;
+	background-color: #24a868;
 	color: white;
 	text-decoration: none;
 	padding: 10px;
@@ -699,7 +700,7 @@ select.error, textarea.error, input.error {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	text-align: center;
-	color: #002F5D;
+	color: #fff;
 	line-height: 18px;
 }
 .bottom-info-container img {
@@ -710,7 +711,7 @@ select.error, textarea.error, input.error {
 	display: inline;
 }
 .selected_airframe a {
-	color: #002F5D;
+	color: #02bd64;
 }
 
 .infoblock-container-small .infoRowFluid {
